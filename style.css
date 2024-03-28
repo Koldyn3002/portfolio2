@@ -1,0 +1,47 @@
+header {
+    background-image: url('header-bg.jpg');
+    background-size: 1600px 900px; /* Устанавливаем размер фона */
+    height: 900px; /* Высота вашего заголовка */
+}
+.logo {
+    width: 31px; /* Устанавливаем ширину логотипа */
+    height: 48px; /* Устанавливаем высоту логотипа */
+    position: absolute; /* чтобы использовать абсолютное позиционирование для логотипа */
+    top: 57px; /* Устанавливаем верхнюю позицию логотипа */
+    left: 216px; /* Устанавливаем левую позицию логотипа */
+}
+.navigation {
+    width: 305px;
+    height: 21px;
+    position: absolute;
+    top: 71px;
+    left: 316px;
+}
+
+.text {
+    width: 141px;
+    height: 25px;
+    position: absolute;
+    top: 69px;
+    left: 1100px;
+    font-size: 16px; 
+    font-family: 'Anton', sans-serif; 
+    color: #ffffff; 
+}
+
+.image {
+    width: 511px;
+    height: 257px;
+    position: absolute;
+    top: 321px;
+    left: 213px;
+    border: 1px solid #000; /* задаем рамку */
+}
+
+.large-image {
+    width: 1170px;
+    height: 802px;
+    position: absolute;
+    top: 1013px;
+    left: 215px;
+}
